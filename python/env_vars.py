@@ -6,7 +6,7 @@ from spotipy.oauth2 import SpotifyClientCredentials, SpotifyOAuth
 # Set your Spotify API credentials
 client_id = "3c70b159bb9848ca890755bf3083e080"
 client_secret = "578f8808a62d4b92b5d8387d61c33432"
-redirect_uri = "http://localhost:8888/callback/"
+redirect_uri = "http://localhost:5173/callback"
 
 # Set the required scope(s)
 scope = "user-library-read"
